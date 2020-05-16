@@ -5,12 +5,14 @@ from __future__ import unicode_literals
 AUTHOR = 'Knight'
 SITENAME = 'Knight blog'
 SITEURL = 'https://knightchang17.github.io/PelicanBlog/'
+TIMEZONE = 'Asia/Taipei'
+DEFAULT_LANG = 'en'
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
-TIMEZONE = 'Asia/Taipei'
 
-DEFAULT_LANG = 'en'
+THEME = '/home/knight/Public/PelicanBlog/pelican-themes/blueidea/'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -36,4 +38,3 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-STATIC_PATHS = ['images']
