@@ -8,4 +8,4 @@ Summary: yes
 
 This is the first post
 
-![write here a good discription of image](../images/IMAGE_NAME.jpg)
+![write here a good discription of image]({filename}/images/IMAGE_NAME.jpg)
