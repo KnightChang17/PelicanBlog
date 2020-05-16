@@ -14,7 +14,7 @@ STATIC_PATHS = ['images']
 
 THEME = '/home/knight/Public/PelicanBlog/pelican-themes/blueidea/'
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 LOAD_CONTENT_CACHE = False
 
 # Feed generation is usually not desired when developing
