@@ -13,6 +13,7 @@ STATIC_PATHS = ['images']
 
 
 THEME = '/home/knight/Public/PelicanBlog/pelican-themes/blueidea/'
+THEME_STATIC_DIR = './theme'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
